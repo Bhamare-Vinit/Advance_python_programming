@@ -9,6 +9,6 @@ for i in range(len(A)-1):
      
     A[i], A[min_idx] = A[min_idx], A[i]
 
-print ("Sorted array")
+print ("Sorted array: ")
 for i in range(len(A)):
     print(A[i],end=" ") 
